@@ -1,4 +1,6 @@
-name: Titan Cloud PC - Mobile RDP + Tailscale
+from pathlib import Path
+
+content = r'''name: Titan Cloud PC - Mobile RDP + Tailscale
 
 on:
   workflow_dispatch:
